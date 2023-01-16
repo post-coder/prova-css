@@ -1,13 +1,12 @@
 /* tutti i tag h1 */
 h1 {
-  color: red;
+  /* color: red; */
   /* text-align: center; */
 }
 
 /* tutti i tag h2 */
 h2 {
   color: blue;
-
 }
 
 
@@ -25,6 +24,7 @@ background
 
 
 #primo-sottotitolo {
+  color: green;
   margin-bottom: 60px;
 }
 
@@ -35,17 +35,52 @@ nome del colore: red
 valore rgb:
 */
 
-section {
-  background-color: rgba(0,0,255,1);
-}
 
-
-p {
+.purple-background {
+  /* tanti modi per indicare un colore */
   background-color: green;
   background-color: rgb(55, 128, 191); 
   background-color: rgba(255, 0, 0, 0.5);
   background-color: #ff0000;
   background-color: hsl(305, 50%, 50%);
+  /* se più regole riguardano la stessa proprietà, 
+  avrà priorità l'ultima */
+}
 
+
+.quadrato {
+  height: 100px;
+  width: 200px;
+
+  /* background-color: red; */
+  /* border: 1; */
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+
+  /* shorthand per border */
+  border: 1px solid black;
   
+
+  /* per includere i bordi all'interno della dimensione dell'elemento */
+  box-sizing: border-box;
+
+}
+
+.paragraph {
+  text-align: justify;
+
+  font-size: 12px;
+  font-weight: 300;
+  /* font-family: 'Arial', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.texture-back {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/The_London_Eye_%28127161947%29.jpeg/800px-The_London_Eye_%28127161947%29.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position: top; */
+  background-attachment: fixed;
 }
