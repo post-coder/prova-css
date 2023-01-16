@@ -1,0 +1,51 @@
+/* tutti i tag h1 */
+h1 {
+  color: red;
+  /* text-align: center; */
+}
+
+/* tutti i tag h2 */
+h2 {
+  color: blue;
+
+}
+
+
+/* 
+x text align
+x margin
+background
+
+*/
+
+/* l'elemento con id x */
+#primo-titolo {
+  text-align: center;
+}
+
+
+#primo-sottotitolo {
+  margin-bottom: 60px;
+}
+
+
+/* come esprimere i colori:
+
+nome del colore: red
+valore rgb:
+*/
+
+section {
+  background-color: rgba(0,0,255,1);
+}
+
+
+p {
+  background-color: green;
+  background-color: rgb(55, 128, 191); 
+  background-color: rgba(255, 0, 0, 0.5);
+  background-color: #ff0000;
+  background-color: hsl(305, 50%, 50%);
+
+  
+}
