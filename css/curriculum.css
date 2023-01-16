@@ -8,6 +8,10 @@ h1 {
 }
 
 
+h2 {
+  color: red;
+}
+
 header {
 
   padding-bottom: 35px;
@@ -25,10 +29,6 @@ main {
 
   border-bottom: 2px solid #ffae21;
 
-}
-
-h2 {
-  color: red;
 }
 
 
