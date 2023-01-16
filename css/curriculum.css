@@ -1,0 +1,17 @@
+/* rimuoviamo il margine di default che ci dà il browser */
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+header {
+  background-color: #ededed;
+
+  padding-bottom: 35px;
+  border-bottom: 2px solid #ffae21;
+
+  text-align: center;
+}
